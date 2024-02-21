@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link for  anymation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</head>
+<body>
+  <!-- Yout tube link to learn animation effects https://youtu.be/CVTLmIJgCAc?si=pZkN5tk6J32t2m9i -->
+  <!--github link to apply animations  https://github.com/michalsnik/aos -->
+  <!-- Code for animation -->
+  <script>
+    AOS.init({
+      offset: 300,
+      duration:1000
+    });
+  </script>
+
+
+    <!-- Codding for navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Codding for text -->
+<div class="row, text" data-aos="ease-in">
+     I am Dheeraj <br>Chawariya
+  </div>
+
+  <!-- This is for personal image -->
+  <img class="MainImage" src="WhatsApp_Image_2024-01-11_at_22.23.51_e100afb7-removebg-preview.png" alt="Cant Load">
+
+  <!-- Codding for Skills -->
+  <div id="Skills" class="text-center, Skilltext">SKILLS</div>
+
+  <!-- Skill Card -->
+  <!-- data aos is a animation effect -->
+  <div class="center" data-aos="zoom-in">
+  <!-- C# card -->
+  <div class="card" style="width: 18rem;">
+    <img src="csharp_logo.avif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <div class="card-text1">C# Lanugage</div>
+      <p class="card-text">C# language is learn with .NET faramework in visual stdio software</p>
+    </div>
+  </div>
+<!-- java card -->
+  <div class="card" style="width: 18rem;">
+    <img src="OIP.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <div class="card-text1">Java Lanugage</div>
+      <p class="card-text">Java lanugage is learn with andorid Studio software for developing android appliactaions</p>
+    </div>
+  </div>
+  <!-- C Language -->
+  <div class="card" style="width: 18rem;">
+    <img src="C language logo.png" class="card-img-top" height="286vh">
+    <div class="card-body">
+      <div class="card-text1">C Lanugage</div>
+      <p class="card-text">C lanugage is learn with Visual Studio software for developing console appliactaions</p>
+    </div>
+  </div>
+  <!-- C++ Lnauage -->
+  <div class="card" style="width: 18rem;">
+    <img src="c-plus-plus.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <div class="card-text1">C++ Lanugage</div>
+      <p class="card-text">C++ lanugage is learn with Visual Studio software for developing console appliactaions using OOPs</p>
+    </div>
+  </div>
+</div>
+
+  <!-- DSA -->
+  <div class="center" data-aos="zoom-in">
+    <!-- DSA card -->
+    <div class="card" style="width: 18rem;">
+      <img src="DSA.jpg" class="card-img-top" alt="..." height="285vh">
+      <div class="card-body">
+        <div class="card-text1">DSA </div>
+        <p class="card-text">DSA is stand for Data Structure and Alogrithm. DSA is learn with c lanaugage and java lanuage</p>
+      </div>
+    </div>
+  <!-- VB.Net card -->
+    <div class="card" style="width: 18rem;">
+      <img src="VB Lanuage.png" class="card-img-top" alt="..." height="282vh">
+      <div class="card-body">
+        <div class="card-text1">VB.NET </div>
+        <p class="card-text">VB language is learn with .NET faramework in visual studio software</p>
+      </div>
+    </div>
+    <!-- MySql Database -->
+    <div class="card" style="width: 18rem;">
+      <img src="OIP (1).jpg" class="card-img-top" height="285vh">
+      <div class="card-body">
+        <div class="card-text1">MySql Database</div>
+        <p class="card-text">MySql database is used to create database to store data into tables with some relation to each other</p>
+      </div>
+    </div>
+    <!-- C++ Lnauage -->
+    <div class="card" style="width: 18rem;">
+      <img src="PHP.png" class="card-img-top" alt="..." height="260vh">
+      <div class="card-body">
+        <div class="card-text1">PHP Lanugage</div>
+        <p class="card-text">Php lanugage is used in website backend to develop backed on website and perform CRUD operation on website</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BootStrap -->
+  <div class="center" data-aos="zoom-in">
+    <!-- Bootstrap card -->
+    <div class="card" style="width: 18rem;">
+      <img src="OIP.jpeg" class="card-img-top" alt="..." height="280vh">
+      <div class="card-body">
+        <div class="card-text1">bootstrap V5</div>
+        <p class="card-text">bootstrap version 5 is the latest version of bootstrap to minimize the length of the CSS code and develop responsive website</p>
+      </div>
+    </div>
+  <!-- CSS card -->
+    <div class="card" style="width: 18rem;">
+      <img src="CSS.jpeg" class="card-img-top" alt="..." height="280vh">
+      <div class="card-body">
+        <div class="card-text1"> Basic CSS </div>
+        <p class="card-text">CSS stands for Cascading style sheet. I have learn CSS basics to modifie Bootstrap code according to my requirements</p>
+      </div>
+    </div>
+    <!-- HTML -->
+    <div class="card" style="width: 18rem;">
+      <img src="HTML.png" class="card-img-top" height="305vh">
+      <div class="card-body">
+        <div class="card-text1">HTML 5</div>
+        <p class="card-text">HTML 5 is stand for Hyper text markup lanugage.This is a base of all the websites. </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact portion -->
+  <div id="Contact" class="contact"  data-aos="zoom-in">
+      <h1>Contacts</h1>
+      <div class="ConText">
+          Name : Dheeraj Chawariya<br>
+          Contact Number:+91 9694866678<br>
+          Gmail:
+          <a href="dheerajkumar6112003@gmail.com" target="_blank">Dheerajkumar6112003@gmail.com</a><br>
+          LinkedIn: <a href="www.linkedin.com/in/dheeraj-chawariya" target="_blank">www.linkedin.com/in/dheeraj-chawariya</a><br>
+          Github: <a href="https://github.com/DheerajChawariya " target="_blank">https://github.com/DheerajChawariya </a><br>
+        </div>
+  </div>
+</body>
+</html>
